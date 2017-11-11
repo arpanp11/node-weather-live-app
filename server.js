@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const Entities = require('html-entities').AllHtmlEntities;
 const entities = new Entities();
 
+const port = process.env.PORT || 3000;
+
 var app = express();
 
 app.set('view engine', 'hbs');
@@ -43,6 +45,6 @@ app.post('/', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('Connect to server .... ');
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}`);
 });
