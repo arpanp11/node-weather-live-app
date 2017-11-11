@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4570E6;
+    width: 100%;
+    color: white;
+}
+
+#logo:hover {
+    text-decoration: underline;
+}
+.container {
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.result {
+    margin-top: 50px;
+    border-bottom: 3px solid #0066FF;
+    border-radius: 0 0 15px 15px;
+    font-size: 1.2em;
+}
+
+#footer {
+    background-color: #4570E6;
+    padding: 10px;
+    color: white;
+}
